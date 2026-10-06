@@ -1,0 +1,4 @@
+---
+- import_playbook: ansible/install.yml
+  vars:
+    ifc_project_dir: '{{ playbook_dir }}'
